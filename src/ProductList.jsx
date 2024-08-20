@@ -255,11 +255,12 @@ const handleContinueShopping = (e) => {
     setShowCart(false);
   };
 
-const handleAddToCart = (product) => {
-    dispatch(addItem(product));
+const handleAddToCart = (plant) => {
+    console.log('Adding to cart', plant);
+    dispatch(addItem(plant));
     setAddedToCart((prevState) => ({
         ...prevState,
-        [product.name]: true, // Set the product name as key and value as true to indicate it's added to cart
+        [plant.name]: true, // Set the product name as key and value as true to indicate it's added to cart
     }));
 };
 
