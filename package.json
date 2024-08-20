@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://riikkana.github.io/e-plantShopping/",
+
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
