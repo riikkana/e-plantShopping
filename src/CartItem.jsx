@@ -78,6 +78,7 @@ const CartItem = ({ onContinueShopping }) => {
         <button className="get-started-button1">Checkout</button>
       </div>
     </div>
+    
   );
 };
 
