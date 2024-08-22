@@ -10,6 +10,28 @@ body {
     background-color: #f0f0f0;
 }
 
+.cart {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: 20px; /* Aseta haluamasi arvo numeron pystysuuntaiseen sijoitteluun */
+  right: 20px; /* Aseta haluamasi arvo numeron vaakasuuntaiseen sijoitteluun */
+  /* background-color: red; /* Näkyvä taustaväri */
+  color: white; /* Numeron väri */
+  border-radius: 50%; /* Pyöristetyt kulmat */
+  padding: 5px 10px; /* Sisennykset */
+  font-size: 16px; /* Fonttikoko */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px; /* Minimileveys, jotta näyttää hyvältä yksinumeroisilla luvuilla */
+  min-height: 24px; /* Minimipituus */
+}
+
+
 /* Navbar */
 .navbar {
     background-color: #4CAF50;
